@@ -1,25 +1,18 @@
 {
   "name": "book-manager",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": true,
-  "description": "A rough book-manager system", 
-   "keywords": [
-    "demo",
-    "node",
-    "express",
-    "mongodb",
-    "webapp",
-  ],
   "scripts": {
-    "start": "node app/app.js"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
     "express": "~4.15.5",
-    "mongoose": "^4.13.6"
-  },
-  "author": "Taylor Lee",
-  "license": "MIT",
+    "mongoose": "^4.13.6",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
+  }
 }
